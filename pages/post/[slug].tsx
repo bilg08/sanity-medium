@@ -11,7 +11,6 @@ type FormInput = {
   comment:string
 }
 function Post({ post }: Props) {
-  console.log(post)
   const {
     register,
     handleSubmit,
