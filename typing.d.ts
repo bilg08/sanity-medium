@@ -18,7 +18,13 @@ export type Post = {
 			_ref:string
 		}
 	},
-	catergories:Category[]
+	body:any,
+	catergories: Category[],
+	comments: [{
+		comment: string,
+		name: string,
+		name:string
+	}]
 }
 
 export type Category = {
